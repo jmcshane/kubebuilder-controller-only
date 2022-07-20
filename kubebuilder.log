@@ -1,0 +1,11 @@
+1.658321863804912e+09   INFO    controller-runtime.metrics        Metrics server is starting to listen{"addr": ":8080"}
+1.658321863805426e+09   INFO    setup     starting manager
+1.658321863805881e+09   INFO    Starting server   {"kind": "health probe", "addr": "[::]:8081"}
+1.658321863805881e+09   INFO    Starting server   {"path": "/metrics", "kind": "metrics", "addr": "[::]:8080"}
+1.6583218638061051e+09  INFO    controller.service        Starting EventSource      {"reconciler group": "", "reconciler kind": "Service", "source": "kind source: *v1.Service"}
+1.658321863806129e+09   INFO    controller.service        Starting Controller       {"reconciler group": "", "reconciler kind": "Service"}
+1.6583218639076009e+09  INFO    controller.service        Starting workers  {"reconciler group": "", "reconciler kind": "Service", "worker count": 1}
+1.658321863907719e+09   INFO    controller.service        Here    {"reconciler group": "", "reconciler kind": "Service", "name": "kube-dns", "namespace": "kube-system"}
+1.658321863907747e+09   INFO    controller.service        Here    {"reconciler group": "", "reconciler kind": "Service", "name": "metrics-server", "namespace": "kube-system"}
+1.6583218639077592e+09  INFO    controller.service        Here    {"reconciler group": "", "reconciler kind": "Service", "name": "kubebuilder-svc-example-controller-manager-metrics-service", "namespace": "kubebuilder-svc-example-system"}
+1.6583218639077692e+09  INFO    controller.service        Here    {"reconciler group": "", "reconciler kind": "Service", "name": "kubernetes", "namespace": "default"}

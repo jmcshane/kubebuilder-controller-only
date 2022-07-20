@@ -1,0 +1,11 @@
+domain: superorbital.io
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-svc-example
+repo: github.com/jmcshane/kubebuilder-controller-only
+resources:
+- controller: true
+  domain: superorbital.io
+  kind: Service
+  version: v1
+version: "3"
